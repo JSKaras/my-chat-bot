@@ -1,0 +1,68 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AppConfig	apps.py	/^from django.apps import AppConfig$/;"	i
+COMMAND	mybot/mybot_default.py	/^COMMAND = 'command'$/;"	v
+COMMAND_LIST	mybot/mybot_default.py	/^COMMAND_LIST = ['예약', '예약취소','예약조회', '사용방법'] $/;"	v
+History	admin.py	/^from message.models import Reservation, History $/;"	i
+History	models.py	/^class History(models.Model):$/;"	c
+History	views.py	/^from message.models import Reservation, History$/;"	i
+JsonResponse	views.py	/^from django.http import JsonResponse$/;"	i
+MessageConfig	apps.py	/^class MessageConfig(AppConfig):$/;"	c
+RESERVED	mybot/mybot_default.py	/^RESERVED = 'reserved'$/;"	v
+RESERV_TIME	mybot/mybot_default.py	/^RESERV_TIME = 'reserv_time'$/;"	v
+ROOM_LIST	mybot/mybot_default.py	/^ROOM_LIST = ['201', '202', '203', '204', '205', '206', '207', '208', '기도실1', '기도실2', '기도실3']$/;"	v
+ROOM_NAME	mybot/mybot_default.py	/^ROOM_NAME = 'room_name'$/;"	v
+Reservation	admin.py	/^from message.models import Reservation, History $/;"	i
+Reservation	models.py	/^class Reservation(models.Model):$/;"	c
+Reservation	views.py	/^from message.models import Reservation, History$/;"	i
+TestCase	tests.py	/^from django.test import TestCase$/;"	i
+USAGE_STRING	views.py	/^			   "		예약취소 기도실1 오후3시반'"$/;"	v
+USE_TIME	mybot/mybot_default.py	/^USE_TIME = 'use_time'$/;"	v
+__unicode__	models.py	/^	def __unicode__(self):$/;"	m	class:History	file:
+__unicode__	models.py	/^	def __unicode__(self):$/;"	m	class:Reservation	file:
+admin	admin.py	/^from django.contrib import admin$/;"	i
+command_valid	mybot/mybot_parser.py	/^def command_valid(command):$/;"	f
+csrf_exempt	views.py	/^from django.views.decorators.csrf import csrf_exempt$/;"	i
+default	mybot/mybot_operation.py	/^from . import mybot_default as default$/;"	i
+default	mybot/mybot_parser.py	/^from . import mybot_default as default$/;"	i
+end_time	models.py	/^	end_time = models.DateTimeField('End Time')$/;"	v	class:History
+end_time	models.py	/^	end_time = models.DateTimeField('End Time')$/;"	v	class:Reservation
+get_resbody	mybot/mybot_response.py	/^def get_resbody(comment):$/;"	f
+get_reserv_success	mybot/mybot_operation.py	/^def get_reserv_success(room_name, start_time, end_time):$/;"	f
+history	mybot/mybot_operation.py	/^from ..models import History as history$/;"	i
+id	models.py	/^	id = models.AutoField(primary_key=True)$/;"	v	class:History
+id	models.py	/^	id = models.AutoField(primary_key=True)$/;"	v	class:Reservation
+json	mybot/mybot_parser.py	/^import json$/;"	i
+json	views.py	/^import json$/;"	i
+models	models.py	/^from django.db import models$/;"	i
+mybot_operation	views.py	/^from .mybot import mybot_operation$/;"	i
+mybot_parser	views.py	/^from .mybot import mybot_parser$/;"	i
+mybot_response	mybot/mybot_operation.py	/^from . import mybot_response$/;"	i
+mybot_response	views.py	/^from .mybot import mybot_response$/;"	i
+name	apps.py	/^    name = 'message'$/;"	v	class:MessageConfig
+opeartion	mybot/mybot_operation.py	/^def opeartion(param_list):$/;"	f
+parse_time	mybot/mybot_parser.py	/^def parse_time(time_str):$/;"	f
+parse_use_time	mybot/mybot_parser.py	/^def parse_use_time(time_str):$/;"	f
+parser	mybot/mybot_parser.py	/^def parser(data):$/;"	f
+render	views.py	/^from django.shortcuts import render$/;"	i
+request_time	models.py	/^	request_time = models.DateTimeField('Request Time')$/;"	v	class:History
+request_time	models.py	/^	request_time = models.DateTimeField('Request Time')$/;"	v	class:Reservation
+reserv	mybot/mybot_operation.py	/^from ..models import Reservation as reserv$/;"	i
+reserv_time	models.py	/^	reserv_time = models.DateTimeField('Reservation Time')$/;"	v	class:History
+reserv_time	models.py	/^	reserv_time = models.DateTimeField('Reservation Time')$/;"	v	class:Reservation
+reserved_field	models.py	/^	reserved_field = models.CharField(max_length=200, default="")$/;"	v	class:History
+reserved_field	models.py	/^	reserved_field = models.CharField(max_length=200, default="")$/;"	v	class:Reservation
+response	views.py	/^def response(request):$/;"	f
+romm_check	mybot/mybot_parser.py	/^def romm_check(room_name):$/;"	f
+room_name	models.py	/^	room_name = models.CharField(max_length=50)$/;"	v	class:History
+room_name	models.py	/^	room_name = models.CharField(max_length=50, default="")$/;"	v	class:Reservation
+sys	views.py	/^import sys$/;"	i
+time	mybot/mybot_parser.py	/^import time$/;"	i
+unicode_literals	models.py	/^from __future__ import unicode_literals$/;"	i
+url	urls.py	/^from django.conf.urls import url$/;"	i
+urlpatterns	urls.py	/^urlpatterns = [$/;"	v
+views	urls.py	/^from message import views$/;"	i

@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+COMMAND	mybot_default.py	/^COMMAND = 'command'$/;"	v
+COMMAND_LIST	mybot_default.py	/^COMMAND_LIST = ['예약', '예약취소','예약조회', '사용방법'] $/;"	v
+RESERVED	mybot_default.py	/^RESERVED = 'reserved'$/;"	v
+RESERV_TIME	mybot_default.py	/^RESERV_TIME = 'reserv_time'$/;"	v
+ROOM_LIST	mybot_default.py	/^ROOM_LIST = ['201', '202', '203', '204', '205', '206', '207', '208', '기도실1', '기도실2', '기도실3']$/;"	v
+ROOM_NAME	mybot_default.py	/^ROOM_NAME = 'room_name'$/;"	v
+USE_TIME	mybot_default.py	/^USE_TIME = 'use_time'$/;"	v
+command_valid	mybot_parser.py	/^def command_valid(command):$/;"	f
+default	mybot_operation.py	/^from message.mybot import mybot_default as default$/;"	i
+default	mybot_parser.py	/^from . import mybot_default as default$/;"	i
+get_resbody	mybot_response.py	/^def get_resbody(comment):$/;"	f
+get_reserv_success	mybot_operation.py	/^def get_reserv_success(room_name, start_time, end_time):$/;"	f
+history	mybot_operation.py	/^from message.models import History as history$/;"	i
+json	mybot_parser.py	/^import json$/;"	i
+mybot_response	mybot_operation.py	/^from message.mybot import mybot_response$/;"	i
+opeartion	mybot_operation.py	/^def opeartion(param_list):$/;"	f
+parse_time	mybot_parser.py	/^def parse_time(time_str):$/;"	f
+parse_use_time	mybot_parser.py	/^def parse_use_time(time_str):$/;"	f
+parser	mybot_parser.py	/^def parser(data):$/;"	f
+reserv	mybot_operation.py	/^from message.models import Reservation as reserv$/;"	i
+romm_check	mybot_parser.py	/^def romm_check(room_name):$/;"	f
+rooms	mybot_operation.py	/^from message.models import Room as rooms$/;"	i
+time	mybot_parser.py	/^import time$/;"	i
